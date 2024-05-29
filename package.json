@@ -1,9 +1,26 @@
 {
+  "name": "My Blog",
+  "version": "0.0.1",
+  "description": "A simple tech blog, set up with Eleventy.",
   "scripts": {
-    "build": "npx @11ty/eleventy",
-    "dev": "npx @11ty/eleventy --serve"
+    "start": "eleventy --serve",
+    "build": "NODE_ENV=production eleventy"
   },
   "dependencies": {
-    "@11ty/eleventy": "^2.0.1"
-  }
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  },
+  "engines": {
+    "node": "14"
+  },
+  "repository": {
+    "url": "https://github.com/solarrust/blog"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "blog",
+    "eleventy"
+  ]
 }
