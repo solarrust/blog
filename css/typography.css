@@ -1,0 +1,11 @@
+body {
+  font-size: clamp(1rem, 0.8239rem + 0.7512vw, 1.5rem);
+}
+
+h1, .title {
+  font-size: clamp(1.75rem, 1.2658rem + 2.0657vw, 3.125rem);
+}
+
+h2, .subtitle {
+  font-size: clamp(1.2rem, 0.6366rem + 2.4038vw, 2.8rem);
+}
