@@ -4,15 +4,18 @@
   "description": "A simple tech blog, set up with Eleventy.",
   "scripts": {
     "start": "eleventy --serve",
-    "build": "NODE_ENV=production eleventy"
-  },
-  "dependencies": {
+    "build": "NODE_ENV=production eleventy",
+    "lint": "stylelint --cache true --cache-strategy content '**/*.css'",
+    "lint:fix": "npm run lint -- --fix",
+    "dev": "npm start && lint:fix"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^2.0.1",
+    "stylelint": "^16.6.1",
+    "stylelint-config-standard": "^36.0.0"
   },
   "engines": {
-    "node": "14"
+    "node": "^14"
   },
   "repository": {
     "url": "https://github.com/solarrust/blog"
