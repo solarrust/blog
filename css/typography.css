@@ -1,0 +1,33 @@
+@font-face {
+  font-family: JetBrains Mono;
+  src: url(/fonts/JetBrainsMono-VariableFont_wght.ttf) format(ttf-variable);
+  font-weight: 100 800;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+
+body {
+  font-family: JetBrains Mono, monospace;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+h1, .title-l {
+  font-weight: 600;
+  font-size: var(--title-l-size);
+}
+
+h2, .title-m {
+  font-weight: 600;
+  font-size: var(--title-m-size);
+}
+
+h3, .title-s {
+  font-weight: 700;
+  font-size: var(--title-s-size);
+}
+
+h4, .title-xs {
+  font-weight: 800;
+  font-size: var(--title-xs-size);
+}
