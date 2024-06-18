@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "alena.rocks/balance/precache-manifest.821fb61a1d21619fbe260b01a9ff1852.js"
+  "alena.rocks/balance/precache-manifest.8b8831d8ce281773475e3fab7f0189b6.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "360271c58c0ef2c0c3ad334fd060bda3",
+    "revision": "5dec939df0b2439c502acda077e45e14",
     "url": "alena.rocks/balance/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "alena.rocks/balance/static/css/2.e9c704b9.chunk.css"
   },
   {
-    "revision": "419c18f329dcd3b6588f",
+    "revision": "dc5452cd9eafb384475b",
     "url": "alena.rocks/balance/static/css/main.b5ced060.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "alena.rocks/balance/static/js/2.89975a3b.chunk.js"
   },
   {
-    "revision": "419c18f329dcd3b6588f",
-    "url": "alena.rocks/balance/static/js/main.226b2582.chunk.js"
+    "revision": "dc5452cd9eafb384475b",
+    "url": "alena.rocks/balance/static/js/main.b0f92f8a.chunk.js"
   },
   {
     "revision": "8fd28883d8da263fa46b",
