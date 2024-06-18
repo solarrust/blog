@@ -4,7 +4,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("CNAME");
   eleventyConfig.addPassthroughCopy("js");
-  eleventyConfig.addPassthroughCopy("balance");
   return {
     passthroughFileCopy: true
   }
